@@ -1,0 +1,22 @@
+.nothing__main-content{
+  align-items: center;
+  background-color: $primary;
+  color: $white;
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  height:100%;
+  font-weight:bold;
+  font-size: 2vw;
+
+  p{
+    text-align: center
+  }
+}
+
+@media (orientation: portrait) {
+  .nothing__main-content{
+    height:65vh;
+    font-size: 4vw
+  }
+}
