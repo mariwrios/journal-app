@@ -32,7 +32,7 @@ const NoteAppBar = () => {
 
   return (
     <div className='notes__appbar'>
-      <span> {moment(today).format('dddd')}</span>
+      <span> {moment(today).format(' MMMM Do, h:mm:ss a')}</span>
       <input type='file' name='file' style={{ display: 'none' }} onChange={handleFileChange} id='fileSelector' />
 
       <div>
