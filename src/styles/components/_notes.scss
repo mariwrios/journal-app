@@ -43,7 +43,7 @@ border:none;
   border: none;
   color: #363636;
   font-size: 20px;
-  height: 40%;
+  height: 35%;
   overflow-y: auto;
   margin-bottom: 20px;
   resize: none;
@@ -53,7 +53,8 @@ border:none;
   border-radius:10px;
   box-shadow: 8px 8px 10px #36363642;
   width: 45vw;
-  max-height: 45vh
+  max-height: 45vh;
+  margin-bottom: 1vh
 }
 
 @media (orientation: portrait){
@@ -69,6 +70,11 @@ border:none;
     font-size:1rem;
     
   }
+
+  .journal__entry{
+    height:65px
+  }
+
   .notes__textarea{
    
     font-size: 0.8rem;
